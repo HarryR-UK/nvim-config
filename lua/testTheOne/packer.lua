@@ -34,6 +34,10 @@ return require('packer').startup(function(use)
 	use('ThePrimeagen/harpoon')
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
+    use {
+      'jakemason/ouroboros',
+      requires = { {'nvim-lua/plenary.nvim'} }
+    }   
     use("christoomey/vim-tmux-navigator")
     
     -- file explorer

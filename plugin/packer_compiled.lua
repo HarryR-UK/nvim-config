@@ -184,6 +184,11 @@ _G.packer_plugins = {
     path = "/Users/testTheOne/.local/share/nvim/site/pack/packer/start/onedark",
     url = "https://github.com/ful1e5/onedark.nvim"
   },
+  ouroboros = {
+    loaded = true,
+    path = "/Users/testTheOne/.local/share/nvim/site/pack/packer/start/ouroboros",
+    url = "https://github.com/jakemason/ouroboros"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/testTheOne/.local/share/nvim/site/pack/packer/start/packer.nvim",
